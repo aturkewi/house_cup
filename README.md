@@ -1,21 +1,15 @@
 # HouseCup
 
-**TODO: Add description**
+Create a slack bot to track house cup points.
+
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `house_cup` to your list of dependencies in `mix.exs`:
+Clone down the repo.
+Add your key somewhere.
+Run it.
 
-```elixir
-def deps do
-  [
-    {:house_cup, "~> 0.1.0"}
-  ]
-end
-```
+## Todo:
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/house_cup](https://hexdocs.pm/house_cup).
-
+- Catch [reaction_added](https://api.slack.com/events/reaction_added) events from the slack API and award points.
+- Allow users to sign into the slackbot
